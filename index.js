@@ -185,7 +185,7 @@ function buildQuestionForm(questionNumber)
 {
     //Blank string we will return and insert into our form
     const questionArray = [];
-    let formString = `<form class=/"js-question-form/">`;
+    let formString = `<form class=/"js-question-form/"><fieldset><legend>Question 1</legend>`;
 
     //Loop through all answers for the given question number
     for (let i = 0; i < QuestionList[questionNumber].answers.length; i++)
@@ -196,6 +196,8 @@ function buildQuestionForm(questionNumber)
 
     //Join our question array together into a single string
     formString += questionArray.join("");
+
+    formString += `</fieldset>`;
 
     //Append answers to our button here
     formString += buildButton("js-check-button", "Check Answer");
