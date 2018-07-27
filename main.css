@@ -68,11 +68,15 @@ main
     border:none;
 }
 
+.container-main legend{
+    font-size:0;
+}
+
 .container-main button
 {
     height:28px;
     width: 100%;
-    background-color:seagreen;
+    background-color:darkgreen;
     border:none;
     color:#FFF;
     border-radius:3px;
@@ -80,7 +84,7 @@ main
 
 .container-main button:hover
 {
-    background-color:mediumseagreen;
+    background-color:green;
 }
 
 
