@@ -1,0 +1,39 @@
+background-image
+https://sharing.thedenverchannel.com/sharewfts/photo/2018/04/24/stem-cell-163711_1280_1524577396318_84759744_ver1.0.jpg
+
+
+This markup below can be inserted into the form to build out each individual question:
+
+                    <form class="js-question-content">
+                    <!-- Our answers - the ID will be pulled from the array and used to look up the answer-->
+                    <div class="answer selected">
+                        <input type="radio" id="0" name ="question" required checked>
+                        <label for="0">The plasma membrane regulates the passage of material into or out of the cell.</label>
+                    </div>
+                    
+                    <div class="answer">
+                        <input type="radio" id="1" name ="question" required>
+                        <label for="1">Glucose cannot enter the cell.</label>
+                    </div>
+
+                    <div class="answer">
+                        <input type="radio" id="2" name ="question" required>
+                        <label for="2">Anything can pass into our out of the cell.</label>
+                    </div>
+                    
+                    <div class="answer">
+                        <input type="radio" id="3" name ="question" required>
+                        <label for="3">The plasma membrane must be very thick.</label>
+                    </div>
+                    <button type="Submit" class="js-question-button">Submit</button>
+                    </form>
+
+We can target the <form> element, loop through our question array to build the answers, join all these strings, add the button to the end, and return it.
+
+Classes:
+
+js-submit-button : This is used to submit each question
+js-begin-button : This is used at the home screen and the ending screen (starts question 1)
+js-check-button : This button class is used whenever we want to go to the next question
+js-question-form : Contains form or explanation that we will fill
+js-question-legend : Title used to display our question (legend element)

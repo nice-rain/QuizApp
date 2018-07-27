@@ -1,0 +1,121 @@
+html
+{
+    height:100%;
+}
+
+body
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('https://sharing.thedenverchannel.com/sharewfts/photo/2018/04/24/stem-cell-163711_1280_1524577396318_84759744_ver1.0.jpg');
+    background-position:center center;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+header
+{
+    background-color: rgba(0,0,0, 0.7);
+    position:fixed;
+    width:100%;
+    color:white;
+    height:contain;
+}
+
+header p
+{
+    margin:0px;    
+}
+
+h1
+{
+    text-align:center;
+    margin-bottom:5px;
+}
+
+main
+{
+   padding-top:130px;
+}
+
+/* simple container class */
+.container-top
+{
+    margin-bottom:10px;
+}
+
+.container-main
+{
+    color:#fff;
+    min-width:320px;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    height:100%;
+    background-color:rgba(0,0,0,0.5);
+    border-radius:5px;
+    padding:10px;
+}
+
+.container-main h2
+{
+    font-size:25px;
+    font-weight:bolder;
+}
+
+.container-main fieldset
+{
+    border:none;
+}
+
+.container-main button
+{
+    height:28px;
+    width: 100%;
+    background-color:seagreen;
+    border:none;
+    color:#FFF;
+    border-radius:3px;
+}
+
+.container-main button:hover
+{
+    background-color:mediumseagreen;
+}
+
+
+.answer
+{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:20px;
+    text-align:left;
+    margin-top:20px;
+}
+
+.answer label
+{
+    color:#fff;
+    font-size: 16px;
+    font-weight:normal;
+}
+
+.headingimg
+{
+    width:25px;
+}
+
+.yellowtext
+{
+    color:yellow;
+}
+
+.redtext
+{
+    color:red;
+}
+
+.greentext
+{
+    color:green;
+}

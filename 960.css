@@ -1,0 +1,91 @@
+body *
+{
+    /* fix our margins */
+    box-sizing: border-box;
+}
+
+
+/* This controls our entire row */
+.row
+{
+    max-width:1000px;
+    padding-left:20px;
+    padding-right:20px;
+    margin: 0 auto;
+}
+
+/* Clear Fix */
+.row::before, .row::after
+{
+    display:table;
+    content:'';
+}
+
+.row::after
+{
+    clear:both;
+}
+
+
+.row-top
+{
+    max-width:100%;
+    padding-left:20px;
+    padding-right:20px;
+    margin: 0 auto;
+}
+
+/* Clear Fix */
+.row-top::before, .row-top::after
+{
+    display:table;
+    content:'';
+}
+
+.row-top::after
+{
+    clear:both;
+}
+
+/* Sets up our column gutters (we are only using a 4-column width)*/
+.column
+{
+    float:left;
+    padding-left:1.041%;
+    padding-right:1.041%;
+}
+
+/* Mobile */
+.col-4
+{
+    width:100%;
+}
+
+.col-6
+{
+    width:100%;
+    text-align:center;
+}
+
+
+
+/*Sizing for larger screens*/
+@media only screen and (min-width:640px)
+{
+    .col-4
+    {
+        width:33.33%;
+    }
+
+    .col-6
+    {
+       width:50%;
+       text-align:left;
+    }
+
+    /*Used to float our score*/
+    .col-6.right
+    {
+        text-align:right;
+    }
+}
